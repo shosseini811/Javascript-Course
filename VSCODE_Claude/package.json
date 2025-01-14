@@ -1,0 +1,32 @@
+{
+  "name": "vscode-claude",
+  "displayName": "VS Code Claude",
+  "description": "VS Code extension for Claude AI integration",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./src/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "vscode-claude.startChat",
+        "title": "Start Chat with Claude"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint src"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0"
+  },
+  "dependencies": {
+    "@vscode/vsce": "^3.2.1",
+    "axios": "^1.7.9"
+  }
+}
