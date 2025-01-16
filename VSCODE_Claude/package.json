@@ -9,13 +9,13 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": ["onCommand:vscode-claude.openChatPanel"],
   "main": "./src/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "vscode-claude.startChat",
-        "title": "Start Chat with Claude"
+        "command": "vscode-claude.openChatPanel",
+        "title": "Open Claude Chat Panel"
       }
     ]
   },
